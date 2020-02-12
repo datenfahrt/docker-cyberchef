@@ -17,4 +17,4 @@ EXPOSE 8080/tcp
 
 ENTRYPOINT ["tini"]
 
-CMD ["httpd","-f","-p","0.0.0.0:8080","-h","/home","-u","nobody"]
+CMD ["httpd","-f","-p","0.0.0.0:8080","-h","/home","-u","nobody","-v"]
